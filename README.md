@@ -2,6 +2,10 @@
 
 A simple, semantic, responsive profile card built with plain HTML, CSS, and JavaScript following HNG Stage 0 specifications.
 
+## Live Here
+`https://chibuikemlucas.github.io/hng-stage-zero-frontend`
+
+
 
 ## ✅ Features
 
