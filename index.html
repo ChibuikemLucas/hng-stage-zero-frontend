@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card - Lucas-Emerenini</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <article data-testid="test-profile-card" class="profile-card">
+        <figure class="avatar-section">
+            <img src="images/avatar.jpeg" alt="User Avatar" data-testid="test-user-avatar" />
+        </figure>
+
+        <section class="details-section">
+            <h2 data-testid="test-user-name">Lucas-Emerenini Chibuikem Kennedy</h2>
+            <p data-testid="test-user-bio">
+                A curious mind with a taste for ideas that spark transformation.
+                I build, I learn, I create presence.
+            </p>
+
+            <p>
+                <strong>Current Time (ms): </strong>
+                <span data-testid="test-user-time" id="time-ms"></span>
+            </p>
+
+            <nav>
+                <ul data-testid="test-user-social-links" class="social-links">
+                    <li><a data-testid="test-user-social-github" href="https://github.com/ChibuikemLucas"
+                            target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a data-testid="test-user-social-twitter" href="https://x.com/ChibuikemLucas" target="_blank"
+                            rel="noopener noreferrer">Twitter</a></li>
+                    <li><a data-testid="test-user-social-linkedin"
+                            href="https://www.linkedin.com/in/chibuikem-lucas-073355261" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a></li>
+                </ul>
+            </nav>
+
+            <section>
+                <h3>Hobbies</h3>
+                <ul data-testid="test-user-hobbies">
+                    <li>Reading books</li>
+                    <li>Watching powerful podcast conversations</li>
+                    <li>Exploring thought-provoking documentaries</li>
+                    <li>Collecting rare perspectives that shift reality</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Dislikes</h3>
+                <ul data-testid="test-user-dislikes">
+                    <li>Energy-draining environments</li>
+                    <li>Mediocrity disguised as ambition</li>
+                    <li>Conversations with no spark</li>
+                </ul>
+            </section>
+        </section>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
