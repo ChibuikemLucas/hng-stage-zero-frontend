@@ -2,6 +2,11 @@
 
 A simple, semantic, responsive profile card built with plain HTML, CSS, and JavaScript following HNG Stage 0 specifications.
 
+## Live Here
+`https://chibuikemlucas.github.io/hng-stage-zero-frontend`
+
+
+
 ## ✅ Features
 
 - Semantic HTML (`article`, `section`, `nav`, `figure`)
@@ -13,6 +18,6 @@ A simple, semantic, responsive profile card built with plain HTML, CSS, and Java
 ## 🚀 How to Run Locally
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/ChibuikemLucas/hng-stage-zero-frontend>
 cd profile-card
 open index.html
