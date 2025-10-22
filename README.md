@@ -5,8 +5,6 @@ A simple, semantic, responsive profile card built with plain HTML, CSS, and Java
 ## Live Here
 `https://chibuikemlucas.github.io/hng-stage-zero-frontend`
 
-
-
 ## ✅ Features
 
 - Semantic HTML (`article`, `section`, `nav`, `figure`)
@@ -14,6 +12,31 @@ A simple, semantic, responsive profile card built with plain HTML, CSS, and Java
 - Responsive layout (mobile-first, flex-based)
 - `Date.now()` displayed dynamically in milliseconds
 - Social links keyboard accessible with visible focus state
+
+  ## Frontend Stage 1 - About and contacts page
+
+
+
+  ## 🧩 Project Overview
+  
+Continuation of Stage 0 profile card.
+Adds:
+- `/about.html` – reflective About Me page  
+- `/contact.html` – accessible Contact Us form with validation  
+
+## 🧠 Features
+- Semantic, accessible HTML
+- Responsive CSS layout
+- Real-time validation feedback
+- Live timestamp on profile card
+- Fully keyboard-navigable
+
+## 🚀 Deployment
+
+- Home: [https://chibuikemlucas.github.io/hng-stage-zero-frontend/]
+- About: [https://chibuikemlucas.github.io/hng-stage-zero-frontend/about.html]
+- Contacts: [https://chibuikemlucas.github.io/hng-stage-zero-frontend/contacts.html]
+
 
 ## 🚀 How to Run Locally
 
