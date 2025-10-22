@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us – Lucas-Emerenini</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="top-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html" aria-current="page">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <h1>Contact Us</h1>
+
+        <form id="contact-form" novalidate>
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" data-testid="test-contact-name" aria-describedby="error-name"
+                required />
+            <span id="error-name" data-testid="test-contact-error-name" class="error"></span>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" data-testid="test-contact-email" aria-describedby="error-email"
+                required />
+            <span id="error-email" data-testid="test-contact-error-email" class="error"></span>
+
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" data-testid="test-contact-subject"
+                aria-describedby="error-subject" required />
+            <span id="error-subject" data-testid="test-contact-error-subject" class="error"></span>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" data-testid="test-contact-message"
+                aria-describedby="error-message" required></textarea>
+            <span id="error-message" data-testid="test-contact-error-message" class="error"></span>
+
+            <button type="submit" data-testid="test-contact-submit">Send Message</button>
+            <p id="success" data-testid="test-contact-success" class="success" hidden>
+                ✅ Your message was sent successfully!
+            </p>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
