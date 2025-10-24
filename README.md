@@ -34,8 +34,8 @@ Adds:
 ## 🚀 Deployment
 
 - Home: [https://chibuikemlucas.github.io/hng-stage-zero-frontend/]
-- About: [https://chibuikemlucas.github.io/hng-stage-zero-frontend/about.html]
-- Contacts: [https://chibuikemlucas.github.io/hng-stage-zero-frontend/contacts.html]
+- About: [https://chibuikemlucas.github.io/hng-stage-zero-frontend/about]
+- Contacts: [https://chibuikemlucas.github.io/hng-stage-zero-frontend/contact]
 
 
 ## 🚀 How to Run Locally
