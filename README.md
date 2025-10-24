@@ -21,8 +21,8 @@ A simple, semantic, responsive profile card built with plain HTML, CSS, and Java
   
 Continuation of Stage 0 profile card.
 Adds:
-- `/about.html` – reflective About Me page  
-- `/contact.html` – accessible Contact Us form with validation  
+- `/about` – reflective About Me page  
+- `/contact` – accessible Contact Us form with validation  
 
 ## 🧠 Features
 - Semantic, accessible HTML
